@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function Header() {
   return (
-    <header className="" >
+    <header className="">
       <Image
         src="/meraki.png"
         width={150}
