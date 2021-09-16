@@ -1,3 +1,44 @@
-@tailwind base;
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Rubik:wght@300;400&display=swap');
+
 @tailwind components;
 @tailwind utilities;
+@tailwind base;
+
+@layer utilities {
+  * {
+    @apply font-sans;
+  }
+  #container {
+    @apply h-screen;
+    /* text-align: center; */
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    justify-content: center;
+    align-items: center;
+  
+   
+  }
+
+  #child {
+    scroll-snap-align: start;
+    justify-content: center;
+    scroll-snap-type: both; 
+    scroll-snap-stop: always; 
+    scroll-snap-type: y mandatory;
+    /* align-items: center; */
+  }
+  #footer {
+    @apply max-w-full;
+    scroll-snap-align: end;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    justify-content: center;
+    align-items: center;
+     scroll-snap-type: y mandatory;
+  }
+  #banner-header {
+    @apply font-sans;
+  }
+
+}
