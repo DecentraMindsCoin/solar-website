@@ -12,8 +12,8 @@ function How() {
         <div className=" grid grid-cols-flow mx-5 mt-5  relative ">
           <div className="">
             <h2 className="text-lg font-extralight">How?</h2>
-            <h1 className="text-xl font-semibold">Lets Get Approved</h1>
-            <p className="text-md py-6 max-w-2xl">
+            <h1 className="text-xl lg:text-3xl font-semibold">The Switch Is Easy And Affordable!</h1>
+            <p className="text-md lg:text-xl py-6 max-w-2xl">
               Are you considering switching to solar and live in New Mexico.
               Well your in luck because our Solar Team at Meraki Rio wants to
               help you make the switch to solar. Applying only takes 5 minutes,
@@ -23,7 +23,7 @@ function How() {
             </p>
           </div>
         </div>{" "}
-        <div className="lg:absolute lg:bottom-10 lg:mb-0  mb-2 w-full px-5 sm:px-0 space-y-4 sm:space-y-0 mt-20 sm:justify-between sm:flex w-full">
+        <div className="lg:absolute lg:bottom-10 lg:mb-0  mb-2  px-5 sm:px-0 space-y-4 sm:space-y-0 mt-20 sm:justify-between sm:flex w-full">
           <button className="hover:text-white transition ease-in duration-200 sm:w-1/2 hover:bg-gray-900 uppercase text-sm w-full  ring-4 ring-gray-800 rounded-3xl py-2 sm:mx-3">
             Learn More
           </button>

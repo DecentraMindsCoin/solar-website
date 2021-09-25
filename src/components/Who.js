@@ -11,8 +11,8 @@ function Who() {
         
         <div className='lg:col-start-4 lg:col-end-3 mx-5 lg:mt-16 lg:max-w-xl my-5 relative'>
           <h2 className='text-lg font-extralight'>Who?</h2>
-          <h1 className="text-xl font-semibold">Our Neighbors </h1>
-          <p className="text-md py-6 sm:col-span-1">
+          <h1 className="text-xl lg:text-3xl font-semibold">Our Neighbors </h1>
+          <p className="text-md lg:text-xl py-6 sm:col-span-1">
           Meraki Solar is dedicated to serving you, the community and our neighbors. We make the transition to Solar easy, fun, and affordable. Our team will make sure to answer any questions you may have when thinking about going Solar. Have a question? Lets chat now!
           </p>
           <div className="text-gray-900 justify-between w-full mt-20 lg:bottom-0 lg:absolute pb-5 flex">

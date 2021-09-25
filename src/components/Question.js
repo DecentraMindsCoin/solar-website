@@ -12,8 +12,8 @@ function Question() {
       </video>
       <div className="mx-5 bg- mt-4 lg:mt-16 pb-5 lg:pb-0 relative lg:h-screen lg:absolute lg:col-start-0 lg:col-end-3">
         <h2 className="text-lg font-extralight">Have A Question?</h2>
-        <h1 className="text-xl font-semibold">We Are On Stand By</h1>
-        <p className=" text-md py-6 md:max-w-xl">
+        <h1 className="text-xl font-semibold lg:text-3xl">We Are On Stand By</h1>
+        <p className=" text-md lg:text-xl py-6 md:max-w-xl">
           Our Meraki solar specialist are waiting for your call. Want to get an
           estimate on solar for your home? Are you still unsure about the
           benefits of switching to solar? Well we have good news! Our trained

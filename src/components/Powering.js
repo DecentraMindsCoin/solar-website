@@ -5,7 +5,7 @@ function Powering() {
   return (
     <div className="w-full relative sm:h-screen shadow-xl bg-black px-4 p-6">
       <div className="max-w-3xl mx-auto">
-        <h2 className="text-center mt-16 mb-10 md:mt-12 text-4xl sm:text-5xl font-extrabold text-gray-100 sm:text-4xl lg:text-6xl">
+        <h2 className="text-center mt-16 mb-10 md:mt-12 text-4xl  font-extrabold text-gray-100 sm:text-4xl lg:text-6xl">
           {" "}
           <span className="text-yellow-500 cursor-pointer animate-pulse hover:text-white">
             Powering
@@ -54,9 +54,9 @@ function Powering() {
         </Carousel>
       </div>
       
-      <p className='text-white text-sm font-light py-3'>-<span className='italic text-gray-400'>"Satisfying our awesome customers comes first, by offering the best prices in New Mexico on the highest quality Solar!" 
-      </span>- Larry Baca Jr, Meraki Solar Regional Manager  </p><div className=''>
-        <p className="relative my-10 h-full  mx-1 text-base md:text-lg pb-8 font-light sm:mt-10 text-white my-auto h-full py-12">
+      <p className='text-yellow-500 text-sm font-light py-3'>-<span className='italic text-gray-400'>"Satisfying our awesome customers comes first, by offering the best prices in New Mexico on the highest quality Solar!" 
+      </span> - Larry Baca Jr, Meraki Solar Regional Manager  </p><div className=''>
+        <p className="mx-1 text-base lg:text-xl md:text-lg font-extralight sm:mt-10 text-white py-12">
           Meraki helps thousands of New Mexican's make the switch to solar each
           year. We have customers all across Rio Rancho,  Albuquerque and the entire state of New Mexico! We aim to satisfy every household with our Meraki Solar
           Gaurantee!  It only

@@ -10,8 +10,8 @@ function Where() {
       <div className='lg:absolute lg:w-2/3 mt-5 lg:mt-16 lg:max-w-xl'>
           <div className='mx-5 lg:col-start-1 lg:col-end-1 md:p-0'>
         <h2 className='text-lg font-extralight'>Where?</h2>
-        <h1 className="text-xl font-semibold">Meraki Solar Rio Rancho</h1>
-        <p className="text-md py-6 sm:col-span-1">
+        <h1 className="text-xl lg:text-3xl font-semibold">Meraki Solar Rio Rancho</h1>
+        <p className="text-md lg:text-xl py-6 sm:col-span-1">
        We are located in the heart of Rio Rancho and serve our all of New Mexico by providing quality solar with our Meraki 25 year gaurantee. We aim to supply optimal solar solutions for every houshold thinking of making the switch to solar.
         </p>
         

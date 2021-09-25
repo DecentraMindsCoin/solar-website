@@ -12,8 +12,8 @@ function What() {
       </video>
       <div className="mx-5 lg:mt-16 pb-5 lg:max-w-xl lg:pb-0 my-5 relative">
         <h2 className="text-lg font-extralight">What?</h2>
-        <h1 className="text-xl font-semibold">Quality Solar Panels</h1>
-        <p className="text-md py-6">
+        <h1 className="text-xl lg:text-3xl font-semibold">Quality Solar Panels</h1>
+        <p className="text-md lg:text-xl py-6">
           Our Solar Panels are quality tested and assured to be made from the
           best quality materials, and designed by top level engineers. We trust
           our product so much, that Meraki includes a 25 year guarantee with
