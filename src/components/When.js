@@ -2,26 +2,25 @@ import Link from 'next/link';
 function When() {
 
   return (
-    <div className="relative w-full grid-cols-flow grid-cols-4 bg-black lg:h-screen text-white ">
-      <video
-        className="relative w-full lg:object-cover lg:col-span-2 lg:h-screen bg-black opacity-80"
-        autoPlay
-        loop
-        id="video"
-        loading="lazy"
-      >
-        <source src="/videos/tesla-solar-1.mp4" type="video/mp4"></source>
-      </video>{" "}
-      <div className="mx-5 lg:hidden col-span-1 lg:col-start-1 mt-5 lg:col-end-4 lg:col-span-2">
-        <h2 className="text-lg font-extralight lg:grid-col-2">When?</h2>
-        <h1 className="text-xl text-gray-300 font-semibold">The Best Time Was Last Year</h1>
+    <div className="relative w-full bg-black lg:h-screen text-white ">
+      <div className='mx-auto'>
+        <div className="2xl:max-h-96" >
+            <img className="2xl:h-screen h-full w-full object-cover my-auto" id="img" src="/panels-13.png" loading="lazy">
+        </img>
+          </div>
+      </div>
+          
+
+      <div className="mx-5 mt-5">
+        <h2 className="text-lg font-extralight lg:grid-col-2">How can we help you?</h2>
+        <h1 className="tracking-widest font-barriecito text-xl lg:text-3xl text-gray-300 font-semibold">The Meraki Difference.</h1>
         <p className="text-md lg:text-xl py-6 max-w-2xl">
-         Making the switch to solar is one of the best investments you could ever put into your home in 2021. Now more than ever, many New Mexican's are cashing in on the benefits they will receive after switching to solar. It has never been easier to make the switch and start saving!
+        We’ll compare and contrast our solar brands to find you the best solar solution, for the best price that fits your energy needs. Allow our Meraki Solar Team to answer every question you may have about solar.
         </p>{" "}
         <div className="w-full mt-20 max-w-160 pb-10">
       
-            <div className="lg:bottom-0 lg:absolute">
-              <Link href="/savings"><button className="white  hover:bg-gray-100 transition ease-in duration-200 uppercase text-sm w-full ring-2 ring-white hover:text-gray-900 rounded-2xl py-2">
+            <div className="lg:bottom-8 lg:absolute">
+              <Link href="/savings"><button className="white  hover:bg-gray-100 transition ease-in duration-200 uppercase text-sm w-full ring-2 ring-white hover:text-gray-900 rounded-2xl py-2 lg:mx-10">
               see your savings
             </button>
               </Link>

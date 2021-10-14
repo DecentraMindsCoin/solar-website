@@ -3,40 +3,7 @@ function Footer() {
   return (
     <div className=''>
       <footer id="footer" className="relative min-screen-full lg:flex-row  bg-black text-white pt-8">
-        <div className="lg:flex-grow"> <ul className="hidden xl:hidden  sm:flex justify-items-center pb-10 mx-5 grid-col mx-auto text-lg font-light flex-wrap justify-center sm:justify-around">
-            <li className="my-2">
-              <a
-                className="text-gray-400 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white transition-colors duration-200"
-                href="#"
-              >
-                FAQ
-              </a>
-            </li>
-            <li className="my-2">
-              <a
-                className="text-gray-400 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white transition-colors duration-200"
-                href="#"
-              >
-                Apply Online
-              </a>
-            </li>
-            <li className="my-2">
-              <a
-                className="text-gray-400 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white transition-colors duration-200"
-                href="#"
-              >
-                Why Solar
-              </a>
-            </li>
-            <li className="my-2">
-              <a
-                className="text-gray-400 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white transition-colors duration-200"
-                href="#"
-              >
-                Our Difference
-              </a>
-            </li>
-          </ul>
+        <div className="lg:flex-grow"> 
           <div className="space-y-3 justify-items-center grid-col grid max-w-screen-md mx-auto text-lg">
             <h1 className="underline font-semibold ">Contact Us</h1>
             <h2>(850)-378-1257</h2>
@@ -60,14 +27,16 @@ function Footer() {
               </svg>
                      
             </a>
-            <div> <Image
-              onClick={() => router.push("/")}
+            <div> <a href="/">
+              <Image
               src="/meraki-logo-footer.png"
               width={200}
               height={50}
               objectFit="contain"
               className="relative cursor-pointer"
             />
+            </a>
+               
     
             </div>
            

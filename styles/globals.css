@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Rubik:wght@300;400&display=swap');
-
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
 @tailwind components;
 @tailwind utilities;
 @tailwind base;
 
 @layer utilities {
   * {
-    @apply font-sans;
+    @apply font-nunito;
   }
   #container {
     @apply h-screen;
@@ -16,15 +16,13 @@
     overflow-x: hidden;
     justify-content: center;
     align-items: center;
-  
-   
   }
 
   #child {
     scroll-snap-align: start;
     justify-content: center;
-    scroll-snap-type: both; 
-    scroll-snap-stop: always; 
+    scroll-snap-type: both;
+    scroll-snap-stop: always;
     scroll-snap-type: y mandatory;
     /* align-items: center; */
   }
@@ -35,10 +33,13 @@
     overflow-x: hidden;
     justify-content: center;
     align-items: center;
-     scroll-snap-type: y mandatory;
-  }
-  #banner-header {
-    @apply font-sans;
+    scroll-snap-type: y mandatory;
   }
 
+  #quote-image {
+    @apply object-contain;
+  }
+  #header__title {
+    @apply font-barriecito;
+  }
 }

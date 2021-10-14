@@ -1,93 +1,96 @@
+import Footer from "../src/components/Footer";
+import Header from "../src/components/Header";
+import Link from "next/link";
 function specs() {
   return (
-    <div className=" w-full h-screen mx-auto flex-col">
-      <div className=" bg-black text-white w-full py-10">
+    <div className=" w-full  mx-auto flex-col">
+      <Header />
+      <div className=" bg-black lg:h-screen text-white w-full pb-10">
         <div>
-        <section aria-labelledby="details-heading">
-          <div className="flex flex-col items-center">
-            <h2 id="details-heading" className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              Detailed Solar Panel Specs
-            </h2>
-            <p className="mt-3 max-w-3xl text-sm text-gray-600">
-             Meraki offers the highest quality Solar Panels to New Mexican's every day with our Quality Assurance Guarantee. We have teamed up with world leading Solar Panel manafacturers, engineers, and designers. We want to provide every customer with the best quality Solar in New Mexico, and that is why we offer a 25 year Warranty with our panels.
-            </p>
-          </div>
+          <section aria-labelledby="details-heading" className="item-center">
+            <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:gap-x-0">
+              <div className="lg:border-1 lg:border-r lg:border-white">
+                <div className="w-full aspect-w-3 aspect-h-2  overflow-hidden">
+                  <img
+                    src="panels-1.png"
+                    alt=""
+                    className="w-full h-96 object-center object-cover"
+                  />
+                </div>
+                <div className="xl:m-6 h-96">
+                  <div className=" grid grid-cols-flow mx-5 mt-5 relative ">
+                    <div className="">
+                      <h2 className="text-lg font-extralight">
+                        ZNSHINE Solar Panels
+                      </h2>
+                      <h1 id="header__title" className="tracking-widest text-xl text-yellow-500 lg:text-3xl font-semibold">
+                        Half-Cell Black Monocrystalline
+                      </h1>
+                      <p className="lg:mt-5 pb-20 text-md lg:text-xl font-extralight py-6 max-w-2xl">
+                        Made with selected materials and components to grant
+                        quality, dura- tion, efficiency and through outputs, the
+                        ZXM6-NH120 monocrystal- line modules by ZNSHINE SOLAR(
+                        power output 350 up to 370Wp, represent a highly
+                        flexible solution for diverse installation types, from
+                        industrial rooftop plants to small home PV systems or
+                        large ground surfaces. This allows you to produce clean
+                        energy while reducing your energy bill.
+                      </p>
+                    </div>
+                  </div>{" "}
+                </div>
+                <div className=" mb-2 px-5 sm:px-0 space-y-4 sm:space-y-0  sm:justify-between sm:flex ">
+                  <Link href="/znshine">
+                    <button className="max-w-lg lg:absolute lg:bottom-8 lg:mx-auto lg:left-4 hover:text-gray-900 transition ease-in duration-200 sm:w-1/2 hover:bg-gray-100 uppercase text-sm w-full  ring-4 ring-gray-800 rounded-3xl py-2 sm:mx-3">
+                      Detailed Specs
+                    </button>
+                  </Link>
+                </div>
+              </div>
+              <div className="lg:border-1 lg:border-l lg:border-white">
+                <div className="w-full aspect-w-3 aspect-h-2 overflow-hidden">
+                  <img
+                    src="/panel-4.png"
+                    alt="solar"
+                    className="w-full h-96 object-center object-cover"
+                  />
+                </div>
+                <div className="xl:m-6 h-96 relative ">
+                  <div className=" grid grid-cols-flow mx-5 mt-5  relative">
+                    <div className="text-right">
+                      <h2 className="text-lg font-extralight">
+                        DNA Solar Panels
+                      </h2>
+                      <h1 id='header__title' className="tracking-widest text-xl text-yellow-500 lg:text-3xl font-semibold">
+                        All Black Bi-Facial Design
+                      </h1>
+                      <p className="pb-20 text-md font-light lg:text-xl lg:mt-5 py-6 max-w-2xl right-0 absolute">
+                      Our DNATM Split Cell Series impressively combines advanced 
+solar technologies to maximize performance. Our patented 
 
-          <div className="mt-16 grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:gap-x-8">
-            <div>
-              <div className="w-full aspect-w-3 aspect-h-2  overflow-hidden">
-                <img
-                  src="https://tailwindui.com/img/ecommerce-images/product-page-04-detail-product-shot-01.jpg"
-                  alt="Drawstring top with elastic loop closure and textured interior padding."
-                  className="w-full h-full object-center object-cover"
-                />
+Dual Nano Absorber (DNATM) Technology allows the panel to 
+operate  at  high-efficencies  in  extreme  temperatures. 
+
+Contact our sales team today to learn more about our line of 
+
+high-efficienty solar panels.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="w-full mb-2 px-5 sm:px-0 space-y-4 sm:space-y-0 sm:justify-between sm:flex">
+                  <Link href="/dna">
+                    <button className="relative max-w-lg md:absolute lg:bottom-8 lg:mx-auto md:right-4 hover:text-gray-900 transition ease-in duration-200 sm:w-1/2 hover:bg-gray-100 uppercase text-sm w-full ring-4 ring-gray-800 rounded-3xl py-2 sm:mx-3">
+                      Detailed Specs
+                    </button>
+                  </Link>
+                </div>
               </div>
-              <div className="">
-        <div className=" grid grid-cols-flow mx-5 mt-5  relative ">
-          <div className="">
-            <h2 className="text-lg font-extralight">How?</h2>
-            <h1 className="text-xl lg:text-3xl font-semibold">The Switch Is Easy And Affordable!</h1>
-            <p className="text-md lg:text-xl py-6 max-w-2xl">
-              Are you considering switching to solar and live in New Mexico.
-              Well your in luck because our Solar Team at Meraki Rio wants to
-              help you make the switch to solar. Applying only takes 5 minutes,
-              and the Meraki Team can answer your every question and concern
-              when it comes to solar! You can apply now to simply by clicking
-              button below.
-            </p>
-          </div>
-        </div>{" "}
-        <div className="lg:absolute lg:bottom-10 lg:mb-0  mb-2  px-5 sm:px-0 space-y-4 sm:space-y-0 mt-20 sm:justify-between sm:flex w-full">
-          <button className="hover:text-white transition ease-in duration-200 sm:w-1/2 hover:bg-gray-900 uppercase text-sm w-full  ring-4 ring-gray-800 rounded-3xl py-2 sm:mx-3">
-            Learn More
-          </button>
-          <a href="/ordernow" className="w-full sm:mx-3">
-            <button className="hover:text-white transition ease-in duration-200 hover:bg-gray-900 uppercase text-sm w-full px-5 ring-4 ring-gray-800 rounded-3xl py-2 mt-5 sm:mt-0">
-              Order Now
-            </button>
-          </a>
-        </div>
-      </div>
             </div>
-            <div>
-              <div className="w-full aspect-w-3 aspect-h-2 overflow-hidden">
-                <img
-                  src="https://tailwindui.com/img/ecommerce-images/product-page-04-detail-product-shot-02.jpg"
-                  alt="Front zipper pouch with included key ring."
-                  className="w-full h-full object-center object-cover"
-                />
-              </div>
-              <div className="">
-        <div className=" grid grid-cols-flow mx-5 mt-5  relative ">
-          <div className="">
-            <h2 className="text-lg font-extralight">How?</h2>
-            <h1 className="text-xl lg:text-3xl font-semibold">The Switch Is Easy And Affordable!</h1>
-            <p className="text-md lg:text-xl py-6 max-w-2xl">
-              Are you considering switching to solar and live in New Mexico.
-              Well your in luck because our Solar Team at Meraki Rio wants to
-              help you make the switch to solar. Applying only takes 5 minutes,
-              and the Meraki Team can answer your every question and concern
-              when it comes to solar! You can apply now to simply by clicking
-              button below.
-            </p>
-          </div>
-        </div>{" "}
-        <div className="md:hidden lg:absolute lg:bottom-10 lg:mb-0  mb-2  px-5 sm:px-0 space-y-4 sm:space-y-0 mt-20 sm:justify-between sm:flex w-full">
-          <button className="hover:text-white transition ease-in duration-200 sm:w-1/2 hover:bg-gray-900 uppercase text-sm w-full  ring-4 ring-gray-800 rounded-3xl py-2 sm:mx-3">
-            Learn More
-          </button>
-          <a href="/ordernow" className="w-full sm:mx-3">
-            <button className="hover:text-white transition ease-in duration-200 hover:bg-gray-900 uppercase text-sm w-full px-5 ring-4 ring-gray-800 rounded-3xl py-2 mt-5 sm:mt-0">
-              Order Now
-            </button>
-          </a>
+          </section>
         </div>
       </div>
-            </div>
-          </div>
-        </section>
-        </div>
-      </div>
+      <Footer />
     </div>
   );
 }

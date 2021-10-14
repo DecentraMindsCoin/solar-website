@@ -26,7 +26,7 @@ function Header() {
           <Link href="/ourdifference"><a className="hover:underline cursor-pointer link">Our Difference</a></Link>
           <Link href="/ourprocess"><a className="hover:underline cursor-pointer link">Our Process</a></Link>
           <Link href="/contact"><a className="hover:underline cursor-pointer link">Contact Us</a></Link>
-        </div>  <a href="/quote" className="block transition ease-in duration-200 bg-yellow-500 hover:bg-yellow-400 rounded-3xl px-5 text-sm z-100 item-center font-semibold text-black py-2 mx-5 bg-opacity-60">
+        </div>  <a href="/quote" className="block transition ease-in-out duration-400 bg-yellow-500 hover:bg-yellow-400 hover:scale-110 transform rounded-3xl px-5 text-sm z-100 item-center font-semibold text-black py-2 mx-5 bg-opacity-60">
                 Quote
             </a>  
        

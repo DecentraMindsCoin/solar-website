@@ -21,30 +21,30 @@ export default function PanelsAbout() {
             <img
               src="/screenshot1.png"
               alt=""
-              className="bg-gray-100 rounded-tl-xl rounded-br-xl opacity-70"
+              className="bg-gray-100 rounded-tl-xl rounded-br-xl opacity-70  hover:scale-110 ease-in-out transition duration-500 transform"
             />
             <img
               src="screenshot2.png"
               alt=""
-              className="bg-gray-100 rounded-tr-xl rounded-bl-xl opacity-70"
+              className="bg-gray-100 rounded-tr-xl rounded-bl-xl opacity-70  hover:scale-110 ease-in-out transition duration-200 transform"
             />
             <img
               src="screenshot3.png"
               alt=""
-              className="bg-gray-100 rounded-bl-xl rounded-tr-xl opacity-70"
+              className="bg-gray-100 rounded-bl-xl rounded-tr-xl opacity-70  hover:scale-110 ease-in-out transition duration-200 transform"
             />
             <img
               src="screenshot4.png"
               alt=""
-              className="bg-gray-100 rounded-tl-xl rounded-br-xl opacity-70"
+              className="bg-gray-100 rounded-tl-xl rounded-br-xl opacity-70  hover:scale-110 ease-in-out transition duration-200 transform"
             />
           </div>
           <div className="flex flex-col">
             <div className="relative mb-5 lg:text-xl flex-grow w-full mx-auto">
-              <h2 className="text-3xl pb-12 text-yellow-500 font-semibold tracking-tight sm:text-3xl lg:text-4xl xl:text-5xl">
-                Meraki Solar Panels
+              <h2 className="text-3xl pb-12 text-yellow-500 font-semibold sm:text-3xl lg:text-4xl xl:text-5xl tracking-widest font-barriecito">
+                Quality Solar Panels
               </h2>
-              <p className="mt-0 text-lg xl:text-2xl font-light text-gray-100 flex-grow">
+              <p className="mt-0 text-lg xl:text-xl font-extralight text-gray-100 flex-grow">
                 Our panels are made from top of the line materials, and come
                 with a 25 year quality gaurantee. We take pride in the panels we
                 sell, Meraki aims to provide the highest quality Solar, at the
